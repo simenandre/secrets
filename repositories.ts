@@ -11,7 +11,7 @@ export const repositories = [
 
   'bjerkio/oidc-react',
   'bjerkio/tripletexjs',
-  'bjerkio/unieconomy',
+  'bjerkio/unieconomy-js',
   'bjerkio/pulumi-appsync-modules',
   'bjerkio/crayon-api-js',
   'bjerkio/pulumi-sendgrid',
