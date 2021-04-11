@@ -23,4 +23,6 @@ export const repositories = [
   'tabetalt/pulumix',
   'tabetalt/kit',
   'Oyatel/oyatel-sdk',
+
+  'btoolsorg/apis',
 ];
