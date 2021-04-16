@@ -8,6 +8,7 @@ export const repositories = [
   'cobraz/pulumi-wordpress',
   'cobraz/generate-runtypes',
   'cobraz/jsonschema-to-runtypes',
+  'cobraz/svg-to-theme-ui-component',
 
   'bjerkio/oidc-react',
   'bjerkio/tripletexjs',
