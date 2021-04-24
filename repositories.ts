@@ -3,7 +3,7 @@ export const repositories = [
   'cobraz/dynamodb-csv-convert',
   'cobraz/jira-config',
   'cobraz/norwegian-ssn-graphql-scalar',
-  'cobraz/firestore-graphql-scalar',
+  'cobraz/firestore-graphql-scalars',
   'cobraz/pubsub-http-handler',
   'cobraz/pulumi-wordpress',
   'cobraz/generate-runtypes',
