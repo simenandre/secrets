@@ -10,6 +10,7 @@ export const repositories = [
   'cobraz/jsonschema-to-runtypes',
   'cobraz/protobuf-to-runtypes',
   'cobraz/svg-to-theme-ui-component',
+  'cobraz/pulumi-gcp-scaffold',
 
   'bjerkio/oidc-react',
   'bjerkio/tripletexjs',
