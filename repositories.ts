@@ -11,6 +11,7 @@ export const repositories = [
   'cobraz/protobuf-to-runtypes',
   'cobraz/svg-to-theme-ui-component',
   'cobraz/pulumi-gcp-scaffold',
+  'cobraz/fiken-utils',
 
   'bjerkio/oidc-react',
   'bjerkio/tripletexjs',
