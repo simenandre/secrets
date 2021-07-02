@@ -29,4 +29,6 @@ export const repositories = [
   'Oyatel/oyatel-sdk',
 
   'btoolsorg/apis',
+  
+  'indivorg/theme',
 ];
