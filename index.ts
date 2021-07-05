@@ -19,7 +19,7 @@ repositories.map(repo => {
 
 repositories.map(r => {
   const [org, repository] = r.split('/');
-  return new github.ActionsSecret(repository, {
+  return new github.ActionsSecret(`${org}-${repository}`, {
     secretName: 'NPM_TOKEN',
     plaintextValue: config.requireSecret('npm-token'),
     repository,
