@@ -31,4 +31,5 @@ export const repositories = [
   'btoolsorg/apis',
   
   'indivorg/theme',
+  'indivorg/apis',
 ];
