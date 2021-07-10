@@ -1,3 +1,39 @@
 config:
-  github-npm-token:npm-token:
-    secure: AAABAHORrLSL8UtUUZa5pnQLuTojJJiOthaar5xVBjyfdTpPuPN2Kz5Zwgx/ICgXNi2//3WaRdAiOdfdJ9+eRfKKnY8=
+  github:repos:
+  - cobraz/trippl-timely
+  github:tap-token:
+    secure: AAABAMcQ4J3XC+gmjTQldK94x6xcuNTz5ZIqbXoymYyP71JVRHvVWYe+pl/Kg6+SxEF/JJGgUTV0xH33ux+387Dm4RQI1MU/
+  github:token:
+    secure: AAABAJoLCz89wfVW5XppeLzwd+WYxwfOp6t2fIqboNERh58IyLS9GYvqrCJiT+0/tlVtruwJFyEuOuitKDVqT6lYxcQZljNU
+  npm:repos:
+  - cobraz/eaccounting
+  - cobraz/dynamodb-csv-convert
+  - cobraz/jira-config
+  - cobraz/norwegian-ssn-graphql-scalar
+  - cobraz/firestore-graphql-scalars
+  - cobraz/pubsub-http-handler
+  - cobraz/pulumi-wordpress
+  - cobraz/generate-runtypes
+  - cobraz/jsonschema-to-runtypes
+  - cobraz/protobuf-to-runtypes
+  - cobraz/pulumi-gcp-scaffold
+  - cobraz/fiken-utils
+  - cobraz/svg-to-theme-ui-component
+  - bjerkio/oidc-react
+  - bjerkio/tripletexjs
+  - bjerkio/unieconomy-js
+  - bjerkio/pulumi-appsync-modules
+  - bjerkio/crayon-api-js
+  - bjerkio/pulumi-sendgrid
+  - bjerkio/nestjs-oso
+  - bjerkio/fiken-js
+  - tabetalt/docusaurus-multiple-docs
+  - tabetalt/infra-config
+  - tabetalt/pulumix
+  - tabetalt/kit
+  - Oyatel/oyatel-sdk
+  - btoolsorg/apis
+  - indivorg/theme
+  - indivorg/apis
+  npm:token:
+    secure: AAABAL7OEtldieXuwXvUSLuc71JVD2TO98pwyr7ebCDpz+SoTUea2N+nmEF1BrM9pmYxizY/wDVsOCAGOZKI19YkIkk=
