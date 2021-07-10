@@ -1,6 +1,15 @@
 config:
   github:repos:
   - cobraz/trippl-timely
+  - cobraz/jira-to-tripletex
+  - cobraz/organize-repo-folder
+  - cobraz/xlsx-mxlookup
+  - cobraz/xlsx-spf
+  github:tap-repos:
+  - cobraz/jira-to-tripletex
+  - cobraz/organize-repo-folder
+  - cobraz/xlsx-mxlookup
+  - cobraz/xlsx-spf
   github:tap-token:
     secure: AAABAMcQ4J3XC+gmjTQldK94x6xcuNTz5ZIqbXoymYyP71JVRHvVWYe+pl/Kg6+SxEF/JJGgUTV0xH33ux+387Dm4RQI1MU/
   github:token:
