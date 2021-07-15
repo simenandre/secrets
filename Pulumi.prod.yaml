@@ -45,5 +45,6 @@ config:
   - indivorg/theme
   - indivorg/apis
   - indivorg/kit
+  - indivorg/eslint-config
   npm:token:
     secure: AAABAL7OEtldieXuwXvUSLuc71JVD2TO98pwyr7ebCDpz+SoTUea2N+nmEF1BrM9pmYxizY/wDVsOCAGOZKI19YkIkk=
