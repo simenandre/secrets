@@ -28,6 +28,7 @@ config:
   - cobraz/pulumi-gcp-scaffold
   - cobraz/fiken-utils
   - cobraz/svg-to-theme-ui-component
+  - cobraz/nestjs-envalid
   - bjerkio/oidc-react
   - bjerkio/tripletexjs
   - bjerkio/unieconomy-js
