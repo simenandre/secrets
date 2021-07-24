@@ -48,5 +48,6 @@ config:
   - indivorg/kit
   - indivorg/eslint-config
   - indivorg/runner
+  - indivorg/utils
   npm:token:
     secure: AAABAL7OEtldieXuwXvUSLuc71JVD2TO98pwyr7ebCDpz+SoTUea2N+nmEF1BrM9pmYxizY/wDVsOCAGOZKI19YkIkk=
