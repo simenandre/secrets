@@ -29,6 +29,7 @@ config:
   - cobraz/fiken-utils
   - cobraz/svg-to-theme-ui-component
   - cobraz/nestjs-envalid
+  - cobraz/prettier-config
   - bjerkio/oidc-react
   - bjerkio/tripletexjs
   - bjerkio/unieconomy-js
