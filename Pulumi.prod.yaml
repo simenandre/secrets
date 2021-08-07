@@ -38,6 +38,7 @@ config:
   - bjerkio/pulumi-sendgrid
   - bjerkio/nestjs-oso
   - bjerkio/fiken-js
+  - bjerkio/nestjs-slack
   - tabetalt/docusaurus-multiple-docs
   - tabetalt/infra-config
   - tabetalt/pulumix
