@@ -39,6 +39,8 @@ config:
   - bjerkio/nestjs-oso
   - bjerkio/fiken-js
   - bjerkio/nestjs-slack
+  - bjerkio/gcl-slack
+  - bjerkio/eslint-config
   - tabetalt/docusaurus-multiple-docs
   - tabetalt/infra-config
   - tabetalt/pulumix
