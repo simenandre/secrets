@@ -6,6 +6,7 @@ config:
   - cobraz/xlsx-mxlookup
   - cobraz/xlsx-spf
   - cobraz/todoist-action
+  - cobraz/cobraz
   github:tap-repos:
   - cobraz/jira-to-tripletex
   - cobraz/organize-repo-folder
