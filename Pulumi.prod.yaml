@@ -45,6 +45,7 @@ config:
   - bjerkio/nestjs-slack
   - bjerkio/gcl-slack
   - bjerkio/eslint-config
+  - bjerkio/brand
   - tabetalt/docusaurus-multiple-docs
   - tabetalt/infra-config
   - tabetalt/pulumix
