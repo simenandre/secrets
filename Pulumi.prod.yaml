@@ -34,6 +34,7 @@ config:
   - cobraz/prettier-config
   - cobraz/gcloud-config-select
   - cobraz/next-theme-ui
+  - cobraz/scrivejs
   - bjerkio/oidc-react
   - bjerkio/tripletexjs
   - bjerkio/unieconomy-js
