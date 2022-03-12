@@ -47,6 +47,7 @@ config:
   - bjerkio/gcl-slack
   - bjerkio/eslint-config
   - bjerkio/brand
+  - bjerkio/create-bjerk-typescript
   - tabetalt/docusaurus-multiple-docs
   - tabetalt/infra-config
   - tabetalt/pulumix
