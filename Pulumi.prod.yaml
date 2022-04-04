@@ -49,6 +49,7 @@ config:
   - bjerkio/eslint-config
   - bjerkio/brand
   - bjerkio/create-bjerk-typescript
+  - bjerkio/theme-ui-skeleton
   - tabetalt/docusaurus-multiple-docs
   - tabetalt/infra-config
   - tabetalt/pulumix
