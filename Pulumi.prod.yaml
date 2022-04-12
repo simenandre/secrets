@@ -51,6 +51,7 @@ config:
   - bjerkio/create-bjerk-typescript
   - bjerkio/theme-ui-skeleton
   - bjerkio/nestjs-pubsub-emitter
+  - bjerkio/pino-gcl-slack-transport
   - tabetalt/docusaurus-multiple-docs
   - tabetalt/infra-config
   - tabetalt/pulumix
