@@ -35,6 +35,7 @@ config:
   - cobraz/gcloud-config-select
   - cobraz/next-theme-ui
   - cobraz/scrivejs
+  - cobraz/eslint-pulumi
   - bjerkio/nestjs-posthog
   - bjerkio/oidc-react
   - bjerkio/tripletexjs
