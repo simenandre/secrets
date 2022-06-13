@@ -66,5 +66,6 @@ config:
   - indivorg/runner
   - indivorg/utils
   - ayrorg/brand
+  - cobraz/pino-cloud-logging
   npm:token:
     secure: AAABAL7OEtldieXuwXvUSLuc71JVD2TO98pwyr7ebCDpz+SoTUea2N+nmEF1BrM9pmYxizY/wDVsOCAGOZKI19YkIkk=
