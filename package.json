@@ -1,6 +1,6 @@
 {
   "name": "github-npm-token",
-  "repository": "github:cobraz/secrets",
+  "repository": "github:simenandre/secrets",
   "dependencies": {
     "@pulumi/github": "^3.4.0",
     "@pulumi/pulumi": "^2.0.0"
