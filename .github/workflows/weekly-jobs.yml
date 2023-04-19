@@ -6,8 +6,8 @@ on:
     - cron: '0 12 * * MON' # Weekly on monday at 12
 
 jobs:
-  update-yarn:
-    name: Update yarn to latest
+  drift-check:
+    name: Drift check and ensure tokens are rotated
     runs-on: ubuntu-latest
 
     steps:
