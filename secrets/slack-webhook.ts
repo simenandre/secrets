@@ -3,20 +3,19 @@ import * as github from '@pulumi/github';
 import { getGithubProvider } from './github-providers.js';
 import { invariant } from 'ts-invariant';
 
-const config = new pulumi.Config('npm');
-const token = config.requireSecret('token');
-const repositories = config.requireObject<string[]>('repos');
+const config = new pulumi.Config('slack');
+const webhookUrl = config.requireSecret('webhook-url');
 
-export const localNpmToken = token;
-
-repositories.map(r => {
+// Repositories with `SLACK_WEBHOOK_URL`
+const repos = config.getObject<string[]>('repos') || [];
+repos.map(r => {
   const [org, repository] = r.split('/');
   invariant(repository && org, 'repos must be owner/repo');
   return new github.ActionsSecret(
-    `npm-${org}-${repository}`,
+    `slack-webhook-${org}-${repository}`,
     {
-      secretName: 'NPM_TOKEN',
-      plaintextValue: token,
+      secretName: 'SLACK_WEBHOOK_URL',
+      plaintextValue: webhookUrl,
       repository,
     },
     { provider: getGithubProvider(org) },

@@ -1,2 +1,4 @@
 /bin/
 /node_modules/
+stack.json
+stack*.json

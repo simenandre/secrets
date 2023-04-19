@@ -10,7 +10,7 @@ export function getGithubProvider(org: string) {
     providers.set(
       org,
       new github.Provider(org, {
-        organization: org,
+        owner: org,
         token,
       }),
     );

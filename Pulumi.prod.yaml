@@ -1,73 +1,63 @@
 config:
-  github:repos:
-  - cobraz/trippl-timely
-  - cobraz/jira-to-tripletex
-  - cobraz/organize-repo-folder
-  - cobraz/xlsx-mxlookup
-  - cobraz/xlsx-spf
-  - cobraz/todoist-action
-  - cobraz/cobraz
+  github:repos: []
   github:tap-repos:
-  - cobraz/jira-to-tripletex
-  - cobraz/organize-repo-folder
-  - cobraz/xlsx-mxlookup
-  - cobraz/xlsx-spf
+    - simenandre/jira-to-tripletex
+    - simenandre/organize-repo-folder
+    - simenandre/xlsx-mxlookup
+    - simenandre/xlsx-spf
   github:tap-token:
-    secure: AAABAMcQ4J3XC+gmjTQldK94x6xcuNTz5ZIqbXoymYyP71JVRHvVWYe+pl/Kg6+SxEF/JJGgUTV0xH33ux+387Dm4RQI1MU/
+    secure: AAABAMBXrk/D+wzuJNipYgcU3XWeVXar+8XUuHqhX4e1OT5Za2kPaeLIUx3htoRhn5/d2UavAUCgmqQPenMStBH2PO3fZKUW5gL64IdMasOvZ8BVFnfMKO2tS+tlLBjgO78xtcxNybhWBkrxpCN+5GzzYxHPsSGIPX56eYY=
+  github:tap-token-expires-at: '2023-07-17T12:29:59.562Z'
+  github:tap-token-id:
+    secure: AAABAISO8TYEZaJ3rvDUKVSNXQF7BNVAWXZOyynxDPbzxiv4Y6/C
   github:token:
-    secure: AAABAJoLCz89wfVW5XppeLzwd+WYxwfOp6t2fIqboNERh58IyLS9GYvqrCJiT+0/tlVtruwJFyEuOuitKDVqT6lYxcQZljNU
+    secure: AAABACMvUJwrXEdR/E/1fvbmZ3MyzTl0ZwB7kqY7/YcNY5/mn+/CuXiIjIQy6Sn7OZcA7MtJ8fNIOfeHRbjl2EKGq5TPUqCN
+  github:token-expires-at: '2023-07-17T12:29:21.596Z'
+  github:token-id:
+    secure: AAABAJTj/0ydKV2Fm1AB+bQ108UWNofFzoAgaK5s16k0m0uOoBllqjA=
   npm:repos:
-  - cobraz/eaccounting
-  - cobraz/dynamodb-csv-convert
-  - cobraz/jira-config
-  - cobraz/norwegian-ssn-graphql-scalar
-  - cobraz/firestore-graphql-scalars
-  - cobraz/pubsub-http-handler
-  - cobraz/pulumi-wordpress
-  - cobraz/generate-runtypes
-  - cobraz/jsonschema-to-runtypes
-  - cobraz/protobuf-to-runtypes
-  - cobraz/pulumi-gcp-scaffold
-  - cobraz/fiken-utils
-  - cobraz/svg-to-theme-ui-component
-  - cobraz/nestjs-envalid
-  - cobraz/prettier-config
-  - cobraz/gcloud-config-select
-  - cobraz/next-theme-ui
-  - cobraz/scrivejs
-  - cobraz/eslint-pulumi
-  - bjerkio/nestjs-posthog
-  - bjerkio/oidc-react
-  - bjerkio/tripletexjs
-  - bjerkio/unieconomy-js
-  - bjerkio/pulumi-appsync-modules
-  - bjerkio/crayon-api-js
-  - bjerkio/pulumi-sendgrid
-  - bjerkio/nestjs-oso
-  - bjerkio/fiken-js
-  - bjerkio/nestjs-slack
-  - bjerkio/gcl-slack
-  - bjerkio/eslint-config
-  - bjerkio/brand
-  - bjerkio/create-bjerk-typescript
-  - bjerkio/theme-ui-skeleton
-  - bjerkio/nestjs-pubsub-emitter
-  - bjerkio/pino-gcl-slack-transport
-  - tabetalt/docusaurus-multiple-docs
-  - tabetalt/infra-config
-  - tabetalt/pulumix
-  - tabetalt/kit
-  - Oyatel/oyatel-sdk
-  - btoolsorg/apis
-  - indivorg/theme
-  - indivorg/apis
-  - indivorg/kit
-  - indivorg/eslint-config
-  - indivorg/runner
-  - indivorg/utils
-  - ayrorg/brand
-  - cobraz/pino-cloud-logging
-  - cobraz/fastify-frontend-logger
-  - cobraz/actions-parsers
+    - simenandre/eaccounting
+    - simenandre/dynamodb-csv-convert
+    - simenandre/jira-config
+    - simenandre/norwegian-ssn-graphql-scalar
+    - simenandre/firestore-graphql-scalars
+    - simenandre/pubsub-http-handler
+    - simenandre/pulumi-wordpress
+    - simenandre/generate-runtypes
+    - simenandre/jsonschema-to-runtypes
+    - simenandre/protobuf-to-runtypes
+    - simenandre/pulumi-gcp-scaffold
+    - simenandre/fiken-utils
+    - simenandre/svg-to-theme-ui-component
+    - simenandre/nestjs-envalid
+    - simenandre/prettier-config
+    - simenandre/gcloud-config-select
+    - simenandre/next-theme-ui
+    - simenandre/scrivejs
+    - simenandre/eslint-pulumi
+    - tabetalt/docusaurus-multiple-docs
+    - tabetalt/infra-config
+    - tabetalt/pulumix
+    - tabetalt/kit
+    - Oyatel/oyatel-sdk
+    - btoolsorg/apis
+    - indivorg/theme
+    - indivorg/apis
+    - indivorg/kit
+    - indivorg/eslint-config
+    - indivorg/runner
+    - indivorg/utils
+    - ayrorg/brand
+    - simenandre/pino-cloud-logging
+    - simenandre/fastify-frontend-logger
+    - simenandre/actions-parsers
   npm:token:
     secure: AAABAL7OEtldieXuwXvUSLuc71JVD2TO98pwyr7ebCDpz+SoTUea2N+nmEF1BrM9pmYxizY/wDVsOCAGOZKI19YkIkk=
+  pulumi:token:
+    secure: AAABAFR4iYjhdCCE952NiNDudWWCvNFggAR6Mk+lVgRvpgl9GLedELeCk4QhhlZslZyvmSJwGFDHCEe1EVz13emzPLY5rfmRV7/oGQ==
+  pulumi:repos:
+    - simenandre/secrets
+  slack:repos:
+    - simenandre/secrets
+  slack:webhook-url:
+    secure: AAABAHslKYO+gOcm4mNN+XAiohb2z1qhEUp+bVn6rRc1KjWN1sGlrT1MTHKM2m4YQoZLeZ1yfX0HghimPVZsHMkj79aFFKIjKNZasmjbXNX8YNC3Iue3WzYf4fdVdvhPksrUMwygqmLcO1ZLSuZB
