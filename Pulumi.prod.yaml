@@ -53,11 +53,11 @@ config:
     - simenandre/actions-parsers
   npm:token:
     secure: AAABAL7OEtldieXuwXvUSLuc71JVD2TO98pwyr7ebCDpz+SoTUea2N+nmEF1BrM9pmYxizY/wDVsOCAGOZKI19YkIkk=
-  pulumi:token:
-    secure: AAABAFR4iYjhdCCE952NiNDudWWCvNFggAR6Mk+lVgRvpgl9GLedELeCk4QhhlZslZyvmSJwGFDHCEe1EVz13emzPLY5rfmRV7/oGQ==
   pulumi:repos:
     - simenandre/secrets
+  pulumi:token:
+    secure: AAABAFR4iYjhdCCE952NiNDudWWCvNFggAR6Mk+lVgRvpgl9GLedELeCk4QhhlZslZyvmSJwGFDHCEe1EVz13emzPLY5rfmRV7/oGQ==
   slack:repos:
     - simenandre/secrets
   slack:webhook-url:
-    secure: AAABAHslKYO+gOcm4mNN+XAiohb2z1qhEUp+bVn6rRc1KjWN1sGlrT1MTHKM2m4YQoZLeZ1yfX0HghimPVZsHMkj79aFFKIjKNZasmjbXNX8YNC3Iue3WzYf4fdVdvhPksrUMwygqmLcO1ZLSuZB
+    secure: AAABAF7kkhKOqvD0u27MXKXXTBuRLcNb0+1dS1Q+NezsmHl1ZMwqLpVuRck0hiC7nQRsuTXOkiwr4x+AcdZeN7WPos0O6JcBbWh1htzSfvKGIh05vYcrk8yfqUIqcY585Xp9w0awB8WDJ+EMpGuLDH1z/qpdVTSj0Z6gfxLo+J+7qww=
