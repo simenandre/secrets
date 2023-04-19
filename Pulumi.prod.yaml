@@ -7,7 +7,7 @@ config:
     - simenandre/xlsx-spf
   github:tap-token:
     secure: AAABAMBXrk/D+wzuJNipYgcU3XWeVXar+8XUuHqhX4e1OT5Za2kPaeLIUx3htoRhn5/d2UavAUCgmqQPenMStBH2PO3fZKUW5gL64IdMasOvZ8BVFnfMKO2tS+tlLBjgO78xtcxNybhWBkrxpCN+5GzzYxHPsSGIPX56eYY=
-  github:tap-token-expires-at: '2023-07-17T12:29:59.562Z'
+  github:tap-token-expires-at: '2019-07-17T12:29:59.562Z'
   github:tap-token-id:
     secure: AAABAISO8TYEZaJ3rvDUKVSNXQF7BNVAWXZOyynxDPbzxiv4Y6/C
   github:token:
