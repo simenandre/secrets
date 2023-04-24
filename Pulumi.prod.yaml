@@ -21,7 +21,6 @@ config:
     - simenandre/jira-config
     - simenandre/norwegian-ssn-graphql-scalar
     - simenandre/firestore-graphql-scalars
-    - simenandre/pubsub-http-handler
     - simenandre/pulumi-wordpress
     - simenandre/generate-runtypes
     - simenandre/jsonschema-to-runtypes
