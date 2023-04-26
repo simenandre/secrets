@@ -34,24 +34,11 @@ config:
     - simenandre/next-theme-ui
     - simenandre/scrivejs
     - simenandre/eslint-pulumi
-    - tabetalt/docusaurus-multiple-docs
-    - tabetalt/infra-config
-    - tabetalt/pulumix
-    - tabetalt/kit
-    - Oyatel/oyatel-sdk
-    - btoolsorg/apis
-    - indivorg/theme
-    - indivorg/apis
-    - indivorg/kit
-    - indivorg/eslint-config
-    - indivorg/runner
-    - indivorg/utils
-    - ayrorg/brand
     - simenandre/pino-cloud-logging
     - simenandre/fastify-frontend-logger
     - simenandre/actions-parsers
   npm:token:
-    secure: AAABAL7OEtldieXuwXvUSLuc71JVD2TO98pwyr7ebCDpz+SoTUea2N+nmEF1BrM9pmYxizY/wDVsOCAGOZKI19YkIkk=
+    secure: AAABAJP8PYbzmHR4ZUIcQwEWlMxKzgFnFYrBBjN7iNgT2q42tMw65iFy7eSIOmVGDz2pu29K9hn4u/oPHjVAFmjhX7fgZ9OR
   pulumi:repos:
     - simenandre/secrets
   pulumi:token:
