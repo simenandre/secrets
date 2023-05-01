@@ -1,5 +1,7 @@
 #!/bin/sh
 
+cd "$(dirname "$0")"
+
 mkdir -p $HOME/.secrets
 
 # Store Github Token
