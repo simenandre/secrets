@@ -23,6 +23,6 @@ repositories.map(r => {
       plaintextValue: token,
       repository,
     },
-    { provider: getGithubProvider(org) },
+    { provider: getGithubProvider(org), deleteBeforeReplace: true },
   );
 });

@@ -20,6 +20,7 @@
     "typescript": "^5.0.4"
   },
   "scripts": {
+    "update-npm-token": "rotate-pulumi-secret npm --stack prod --username simenandre --config-name npm:token",
     "update-tap-token": "rotate-pulumi-secret github --stack prod --config-name github:tap-token",
     "update-github-token": "rotate-pulumi-secret github --type github-classic --stack prod --config-name github:token"
   }

@@ -17,7 +17,7 @@ tapRepos.map(r => {
       plaintextValue: tapToken,
       repository,
     },
-    { provider: getGithubProvider(org) },
+    { provider: getGithubProvider(org), deleteBeforeReplace: true },
   );
 });
 
@@ -33,6 +33,6 @@ patRepos.map(r => {
       plaintextValue: token,
       repository,
     },
-    { provider: getGithubProvider(org) },
+    { provider: getGithubProvider(org), deleteBeforeReplace: true },
   );
 });
