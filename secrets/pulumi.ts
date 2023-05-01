@@ -2,9 +2,13 @@ import * as pulumi from '@pulumi/pulumi';
 import * as github from '@pulumi/github';
 import { getGithubProvider } from './github-providers.js';
 import { invariant } from 'ts-invariant';
+import { getToken } from 'get-pulumi-secret';
 
 const config = new pulumi.Config('pulumi');
-const token = config.requireSecret('token');
+const token = getToken({
+  name: 'token',
+  namespace: 'pulumi',
+});
 
 // Repositories with `PULUMI_ACCESS_TOKEN`
 const repos = config.getObject<string[]>('repos') || [];
