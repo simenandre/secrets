@@ -38,6 +38,7 @@ config:
     - simenandre/fastify-frontend-logger
     - simenandre/actions-parsers
     - simenandre/rotate-pulumi-secret
+    - simenandre/get-pulumi-secret
   npm:token:
     secure: AAABAJP8PYbzmHR4ZUIcQwEWlMxKzgFnFYrBBjN7iNgT2q42tMw65iFy7eSIOmVGDz2pu29K9hn4u/oPHjVAFmjhX7fgZ9OR
   pulumi:repos:
