@@ -39,6 +39,7 @@ config:
     - simenandre/actions-parsers
     - simenandre/rotate-pulumi-secret
     - simenandre/get-pulumi-secret
+    - simenandre/phosphor-icons-rsc
   npm:token:
     secure: AAABAA+p2VNBArI7tyTefIGcju0UKOTQKhL789IacoQMaIE2XYZIjULBIhOq3j5VOJa9s6M7FqyoQCdsMkWyiuGvZdS0bIIJ
   npm:token-expires-at: "2023-07-30T17:21:20.663Z"
