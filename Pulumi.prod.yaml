@@ -6,13 +6,13 @@ config:
     - simenandre/xlsx-mxlookup
     - simenandre/xlsx-spf
   github:tap-token:
-    secure: AAABAMBXrk/D+wzuJNipYgcU3XWeVXar+8XUuHqhX4e1OT5Za2kPaeLIUx3htoRhn5/d2UavAUCgmqQPenMStBH2PO3fZKUW5gL64IdMasOvZ8BVFnfMKO2tS+tlLBjgO78xtcxNybhWBkrxpCN+5GzzYxHPsSGIPX56eYY=
-  github:tap-token-expires-at: '2023-07-17T12:29:59.562Z'
+    secure: AAABAEBaLEc389Tb2hBlePnVWufnB268XZNDginuP1h+J+0nCEAJVd/exZDXbLz3RdlHFeFD+IJU1gqVd1amIlcDfwBVIakbYlpD5WwnEBBlTjpTri/YIhmXvjlFe9xdAnXX/WXAlyoGGne5fhldpSfAUxV/iRSBcvTnIiw=
+  github:tap-token-expires-at: '2023-10-16T13:55:42.842Z'
   github:tap-token-id:
     secure: AAABAISO8TYEZaJ3rvDUKVSNXQF7BNVAWXZOyynxDPbzxiv4Y6/C
   github:token:
-    secure: AAABACMvUJwrXEdR/E/1fvbmZ3MyzTl0ZwB7kqY7/YcNY5/mn+/CuXiIjIQy6Sn7OZcA7MtJ8fNIOfeHRbjl2EKGq5TPUqCN
-  github:token-expires-at: '2023-07-17T12:29:21.596Z'
+    secure: AAABAP7qiQQ12siNuclK4rRli65ImgBTD1e9mdjdMCyGSDJQ0kzkPygSuwl4o/7OPqw6jSHTfgWlNa+RymEzIT0zuIzeZYcG
+  github:token-expires-at: '2023-10-16T13:56:01.971Z'
   github:token-id:
     secure: AAABAJTj/0ydKV2Fm1AB+bQ108UWNofFzoAgaK5s16k0m0uOoBllqjA=
   npm:repos:
