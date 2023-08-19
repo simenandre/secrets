@@ -7,7 +7,7 @@
     "@pulumi/pulumi": "^3.64.0",
     "date-fns": "^2.29.3",
     "dedent": "^0.7.0",
-    "execa": "^7.1.1",
+    "execa": "^8.0.0",
     "get-pulumi-secret": "^2.0.0",
     "rotate-pulumi-secret": "^2.0.0",
     "ts-invariant": "^0.10.3",
