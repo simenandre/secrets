@@ -5,7 +5,7 @@
   "dependencies": {
     "@pulumi/github": "^5.7.0",
     "@pulumi/pulumi": "^3.64.0",
-    "date-fns": "^2.29.3",
+    "date-fns": "^3.0.0",
     "dedent": "^0.7.0",
     "execa": "^7.1.1",
     "get-pulumi-secret": "^2.0.0",
