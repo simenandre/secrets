@@ -3,7 +3,7 @@
   "type": "module",
   "repository": "github:simenandre/secrets",
   "dependencies": {
-    "@pulumi/github": "^5.7.0",
+    "@pulumi/github": "^6.0.0",
     "@pulumi/pulumi": "^3.64.0",
     "date-fns": "^2.29.3",
     "dedent": "^0.7.0",
